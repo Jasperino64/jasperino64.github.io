@@ -1,0 +1,54 @@
+.first-section {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #343a40;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.name {
+    font-size: 6rem;
+    flex: 1;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.projects a {
+    color: #ff8c00; /* Change color to orange */
+    text-decoration: underline; /* Add underline to make it look like a link */
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.projects a:hover {
+    color: #e07b00; /* Darken the orange color on hover */
+    text-decoration: underline;
+}
+
+.section-title {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
